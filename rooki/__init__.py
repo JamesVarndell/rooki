@@ -10,4 +10,4 @@ __version__ = "0.1.0"
 
 from birdy import WPSClient
 from .config import config
-rooki = WPSClient(config.get('demo', 'url'), verify=False)
+rooki = WPSClient(config.get('service', 'url'), verify=False)
